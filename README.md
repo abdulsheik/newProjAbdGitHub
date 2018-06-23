@@ -1,2 +1,3 @@
 # newProjAbdGitHub
 Its a new git hub practice project...
+Its for practice purpose created project
