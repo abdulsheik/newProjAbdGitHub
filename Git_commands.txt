@@ -1,0 +1,33 @@
+git clone https://github.com/CiscoDevNet/python_code_samples_network.git
+git status
+git add filename
+git commit -m "commit message"
+git push
+git pull
+
+git config --list
+git config --global user.name "abdulsheik"
+git config --global user.email "s.a.khadar@gmail.com"
+
+mkdir newProjAbdGitHub 
+cd newProjAbdGitHub 
+git  -- it will throw error
+git init -- To make any local diretory as git repository use this command. it will create .get folder in main foler.
+touch Git_commands.txt
+git add Git_commands.txt
+git status
+git commit -m "Git_commands.txt added"
+git status
+git push -- it will through error
+git remote show  -- run this command whether a remove repo is configured to this local repo
+git remote -v --> dis play the remote code links in central location
+git remote add origin https://github.com/abdulsheik/newProjAbdGitHub.git
+git remote show
+git remore -v
+git push <nameoftheremote> <branchname> -- git push origin master
+
+git pull origin master -- here origin is the remote name of local repo
+git branch <branchname> -- to create a branch
+git push origin <branchname> -- to push the branch to central repo
+git push origin -d <branchname>  -- to delete a brach in local and central repo
+
